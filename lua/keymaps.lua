@@ -48,4 +48,7 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+-- [[ Telescope File Browser ]]
+vim.keymap.set('n', '<leader>sb', ':Telescope file_browser<CR>', { desc = 'Open telescope file browser' })
+
 -- vim: ts=2 sts=2 sw=2 et
